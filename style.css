@@ -16,17 +16,17 @@
     color: #474747;
 }
 
+.shopLogo{
+    height: 50%;
+    object-fit: cover;
+}
+
 .servReq{
     width: 60rem;
 }
 
 .submit{
     width: 60rem;
-}
-
-select{
-    width: 60rem;
-    height: 5rem;
 }
 
 input{
@@ -40,11 +40,17 @@ input{
     height: 30rem; 
     width: 100%;
     padding-top: 1rem;
+    object-fit: cover;
 }
 
 .profilePhoto{
-    height: 10rem;
     position: relative;
     top: -10rem;
     left: 5rem;
+}
+
+.manageForm{
+    height: 100rem; 
+    background-color: #f7f7f7;
+    top: 20rem;
 }
