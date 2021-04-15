@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="nav-container">
+        <div class="ui secondary menu">
+            <h1>[Shop Name Here]</h1>
+            <div class="right menu">
+                <a class="item">
+                    Home
+                </a>
+                <a class="item">
+                    Favorites
+                </a>
+                <div class="ui simple dropdown item">
+                    <div class="text">Appointments</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                        <div class="item">My Appointments</div>
+                        <div class="item">Repair History</div>
+                    </div>
+                </div>
+                <div class="ui simple dropdown item">
+                    <div class="text">Account</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                        <div class="item">Transaction History</div>
+                        <div class="item">Cancellations and Refunds</div>
+                        <div class="item">Manage Account</div>
+                        <div class="item">Log out</div>
+                    </div>
+                </div>
+                <a class="item">
+                    Cart
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--Shop Logo/Image-->
+    <img class="ui fluid image" src="images/shop3.jpg" style="height: 100%;">
+
+    
+    <div class="ui grid" style="padding: 10rem;">
+        <p class="ui grid left aligned inputLabel">Select a vehicle</p>
+        <div class="ui input sixteen wide column center aligned" style="padding-bottom: 5rem;">
+            <select class="ui input" name="cars" id="cars" style="font-size: 2rem;">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+
+        <p class="ui grid left aligned inputLabel">Select day and time</p>
+        <div class="ui input sixteen wide column center aligned" style="padding-bottom: 5rem;">
+            <input type="datetime-local">
+        </div>
+
+        <p class="ui grid left aligned inputLabel">Service Requirements</p>
+        <div class="ui input sixteen wide column center aligned" style="padding-bottom: 5rem;">
+            <textarea class="ui input servReq" style="font-size: 2rem;" rows="6"></textarea>
+        </div>
+
+        <div class="ui input sixteen wide column center aligned" style="padding-bottom: 5rem;">
+            <button class="ui primary button center aligned submit">
+                Book Appoinment
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
