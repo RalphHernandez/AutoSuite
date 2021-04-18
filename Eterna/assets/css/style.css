@@ -2202,7 +2202,7 @@ section {
      line-height: 40px;
      position: relative;
      border-radius: 100%;
-     background: #ddd
+     background: #ddd;
  }
 
  .track .step.active .text {
@@ -2273,6 +2273,13 @@ section {
 
  .autoSuiteBtn {
    background-color: #3AAFA9;
+ }
+
+ .appointmentHeader{
+    background-color: #212529;
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: left;
  }
  
  /*--------------------------------------------------------------
